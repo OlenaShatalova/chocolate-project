@@ -1,9 +1,3 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
 /* Common styles */
 @import url('./reset.css');
 @import url('./base.css');
@@ -12,7 +6,13 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+
+@import url('./start-page.css');
+@import url('./benefits.css');
+@import url('./ingridients.css');
+@import url('./how-it-s-made.css');
+@import url('./products.css');
+@import url('./top-sellers.css');
+@import url('./reviews.css');
+
 @import url('./footer.css');
