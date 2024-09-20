@@ -1,44 +1,94 @@
-.header {
-  padding: 20px 0;
+.nav-menu,
+.social-networks {
+  display: none;
 }
-.nav {
+.mob-nav {
   display: flex;
   justify-content: space-between;
 }
 .nav-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-.nav-list {
+  font-weight: 700;
+  line-height: 1.29;
+  letter-spacing: -0.03em;
+  color: #111;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
 }
-.nav-link {
-  position: relative;
-  display: block;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  transition: 200ms ease-in;
+.nav-logo-icon {
+  margin-left: 4px;
 }
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.menu-toggle {
+  padding: 17px 0;
+  stroke: #111;
 }
-.nav-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(100%);
-  width: 110%;
-  height: 4px;
-  border-radius: 4px;
-  transform-origin: center;
-  animation: stretch 400ms cubic-bezier(0.68, -0.55, 0.27, 1.55) 200ms both;
+
+@media screen and (min-width: 768px) {
+  .menu-toggle {
+    display: none;
+  }
+  .header-container {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: space-between;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+  }
+  .logo-container {
+    margin-right: 47px;
+  }
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+  }
+  .nav-link {
+    padding: 12px 0;
+    color: #111;
+  }
+  .social-networks {
+    display: flex;
+    gap: 14px;
+  }
+  .social-item {
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-item:hover {
+    border: 1px solid rgba(253, 146, 34, 0.1);
+  }
+  .social-item svg {
+    transition: transform 0.3s ease;
+  }
+  .social-item:hover svg {
+    fill: #fd9222;
+    transform: scale(1.3);
+  }
 }
-.nav-link.active::after {
-  background: #747bff;
+
+@media screen and (min-width: 1200px) {
+  .nav-logo {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+  .logo-container {
+    margin-right: 365px;
+  }
+  .nav-menu {
+    gap: 24px;
+  }
+
+  .social-networks {
+  }
+  .social-item {
+  }
 }
