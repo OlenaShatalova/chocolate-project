@@ -19,11 +19,15 @@ ul {
 }
 
 a {
+  display: block;
   text-decoration: none;
+  color: inherit;
 }
 
 button {
   cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 img {

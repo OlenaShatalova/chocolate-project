@@ -4,13 +4,12 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 0;
   font-size: 14px;
-  background-color: var(--fafafa);
+  background-color: #fafafa;
 }
 
 .section {
-  padding: 0 40px;
+  margin: 40px 0;
 }
 
 .italic {
@@ -18,10 +17,18 @@ body {
 }
 
 .accent-color {
-  color: #fd9222;
+  color: var(--accent);
 }
 
-button {
-  border: none;
-  background-color: transparent;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
