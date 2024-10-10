@@ -1,7 +1,7 @@
 .start-page-section {
-  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 80px;
   height: 620px;
   max-width: 335px;
   border-radius: 30px;
@@ -82,6 +82,7 @@
 
 @media screen and (min-width: 768px) {
   .start-page-section {
+    margin-bottom: 40px;
     max-width: 704px;
     height: 890px;
     background-image: linear-gradient(
@@ -90,9 +91,6 @@
         rgba(17, 17, 17, 0.4)
       ),
       url(/img/start-page/hero-tablet-bg.jpg);
-  }
-  .start-page-container {
-    padding: 40px;
   }
   .title-start-page {
     padding-right: 140px;
@@ -142,6 +140,7 @@
 
 @media screen and (min-width: 1200px) {
   .start-page-section {
+    margin-bottom: 80px;
     max-width: 1136px;
     height: 600px;
     background-image: linear-gradient(

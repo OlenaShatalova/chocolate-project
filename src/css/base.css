@@ -9,7 +9,7 @@ body {
 }
 
 .section {
-  margin: 40px 0;
+  padding: 40px 0;
 }
 
 .italic {
@@ -31,4 +31,14 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
 }

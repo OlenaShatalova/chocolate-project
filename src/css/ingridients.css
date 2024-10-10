@@ -1,0 +1,44 @@
+.ingridients-title {
+  padding: 0 26px;
+  margin-bottom: 32px;
+}
+.ingridients-list {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+}
+.ingridients-card {
+  border-radius: 15px;
+  border: 1px solid var(--accent);
+  background: #fff;
+  padding: 28px;
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.ingridients-card:nth-child(3) {
+  background: #1e1823;
+}
+.ingridients-card-arrow {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border: 1px solid #fd9222;
+  border-radius: 50%;
+  stroke: var(--accent);
+  padding: 7px 4px;
+}
+.ingridients-img {
+  height: 179px;
+  margin-bottom: 16px;
+}
+.ingridients-img img {
+  margin: 0 auto;
+}
+.ingridients-text {
+  font-weight: 600;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
