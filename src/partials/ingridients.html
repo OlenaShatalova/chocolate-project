@@ -1,112 +1,257 @@
 <!-----  INGRIDIENTS  ----->
 <section class="section ingridients-section">
-  <div class="container ingridients-container">
+  <div class="container ingridients-container swiper-container">
     <h2 class="title ingridients-title">
       It all adds up to one exceptional
       <span class="accent-color">taste</span> sensation
     </h2>
     <!--- Ingridients List -->
-    <ul class="ingridients-list">
+    <ul class="ingridients-list swiper-wrapper">
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/chocolate@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img src="/img/ingridients/chocolate.png" alt="MILK CHOCOLATE" />
-        </picture>
-        <p class="ingridients-text">MILK CHOCOLATE</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/chocolate@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/chocolate.png" alt="MILK CHOCOLATE" />
+            </picture>
+            <h4 class="ingridients-text">MILK CHOCOLATE</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">MILK CHOCOLATE</h4>
+            <span class="tag__back accent__color">chocolate</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Milk chocolate is a solid chocolate confectionery containing
+              cocoa, sugar and milk. It is the most consumed type of chocolate.
+              Chocolate was originally sold and consumed as a beverage in
+              pre-Columbian times. Although four-fifths of all milk chocolate is
+              sold in the United States and Europe.
+            </p>
+          </div>
+        </div>
       </li>
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/milk@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img src="/img/ingridients/milk.png" alt="MILK" />
-        </picture>
-        <p class="ingridients-text">Milk</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/milk@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/milk.png" alt="MILK" />
+            </picture>
+            <h4 class="ingridients-text">Milk</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">MILK</h4>
+            <span class="tag__back accent__color">milk</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Milk is a white liquid food produced by the mammary glands of
+              mammals. It is the primary source of nutrition for young mammals
+              (including breastfed human infants) before they are able to digest
+              solid food.Early-lactation milk, which is called colostrum,
+              contains antibodies that strengthen the immune system.
+            </p>
+          </div>
+        </div>
       </li>
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/nuts@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img src="/img/ingridients/nuts.png" alt="NUTS" />
-        </picture>
-        <p class="ingridients-text">NUTS</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/nuts@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/nuts.png" alt="NUTS" />
+            </picture>
+            <h4 class="ingridients-text">NUTS</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">Nuts</h4>
+            <span class="tag__back accent__color">Nuts</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Almonds, pistachios, and walnuts are some types of nuts that
+              contain healthy nutrients. When eaten as part of a nutrient-dense
+              diet, these 9 nuts may offer benefits such as reducing your risk
+              of heart disease. They’re a good source of fiber, healthy fats,
+              and plant protein. Plus, they’re great on their own.
+            </p>
+          </div>
+        </div>
       </li>
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/semi-sweet@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img
-            src="/img/ingridients/semi-sweet.png"
-            alt="SEMI - SWEET CHOCOLATE"
-          />
-        </picture>
-        <p class="ingridients-text">SEMI - SWEET CHOCOLATE</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/semi-sweet@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img
+                src="/img/ingridients/semi-sweet.png"
+                alt="SEMI - SWEET CHOCOLATE"
+              />
+            </picture>
+            <h4 class="ingridients-text">SEMI - SWEET CHOCOLATE</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">semi - sweet chocolate</h4>
+            <span class="tag__back accent__color">sweet chocolate</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Semi-sweet chocolate has a cocoa solid content of 35 to 65%. One
+              of the best ways to gain an understanding of this type of
+              chocolate is to compare it to a different type of chocolate.
+              Semisweet is darker than milk chocolate. In a taste comparison, it
+              has a slightly bitter taste whereas milk chocolate is sweeter.
+            </p>
+          </div>
+        </div>
       </li>
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/cacao@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img src="/img/ingridients/cacao.png" alt="CACAO" />
-        </picture>
-        <p class="ingridients-text">CACAO</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/cacao@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/cacao.png" alt="CACAO" />
+            </picture>
+            <h4 class="ingridients-text">CACAO</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">Cacao</h4>
+            <span class="tag__back accent__color">Cacao</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Cocoa is a natural product obtained from the fruits of the cocoa
+              tree (Theobroma cacao). This tropical fruit contains beans, from
+              which cocoa mass, cocoa powder and chocolate are made. The history
+              of the use of cocoa goes back to ancient times. Already in ancient
+              Mesoamerica, the Mayan and Aztec civilizations used cocoa in their
+              culture and rituals.
+            </p>
+          </div>
+        </div>
       </li>
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/raspberry@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img src="/img/ingridients/raspberry.png" alt="RASPBERRY" />
-        </picture>
-        <p class="ingridients-text">RASPBERRY</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/raspberry@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/raspberry.png" alt="RASPBERRY" />
+            </picture>
+            <h4 class="ingridients-text">RASPBERRY</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <!-- bnbn -->
+            <h4 class="text__back">Raspberry</h4>
+            <span class="tag__back accent__color">Raspberry</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Raspberry is a tasty and aromatic berry plant that is popular all
+              over the world. It belongs to the pink family and grows in many
+              regions, including North America, Europe and Asia. Raspberries
+              have many varieties and color variations, from red to yellow and
+              black.
+            </p>
+          </div>
+        </div>
       </li>
       <!--  List Item -->
-      <li class="ingridients-card">
-        <svg class="ingridients-card-arrow" width="24" height="24">
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
           <use href="/img/sprite.svg#icon-arrow-right"></use>
         </svg>
-        <picture class="ingridients-img">
-          <source
-            srcset="/img/ingridients/coconut@2x.png"
-            media="(min-resolution: 2dppx)"
-          />
-          <img src="/img/ingridients/coconut.png" alt="COCONUT OIL" />
-        </picture>
-        <p class="ingridients-text">COCONUT OIL</p>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/coconut@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/coconut.png" alt="COCONUT OIL" />
+            </picture>
+            <h4 class="ingridients-text">COCONUT OIL</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">COCONUT OIL</h4>
+            <span class="tag__back accent__color">COCONUT OIL</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Cocoa is a natural product obtained from the fruits of the cocoa
+              tree (Theobroma cacao). This tropical fruit contains beans, from
+              which cocoa mass, cocoa powder and chocolate are made. The history
+              of the use of cocoa goes back to ancient times. Already in ancient
+              Mesoamerica, the Mayan and Aztec civilizations used cocoa in their
+              culture and rituals.
+            </p>
+          </div>
+        </div>
+      </li>
+      <!--  List Item -->
+      <li class="ingridients-card card swiper-slide">
+        <svg class="btn ingridients-card-arrow" width="24" height="24">
+          <use href="/img/sprite.svg#icon-arrow-right"></use>
+        </svg>
+        <div class="card__inner">
+          <div class="card__face card__face--front">
+            <picture class="ingridients-img">
+              <source
+                srcset="/img/ingridients/vanilla@2x.png"
+                media="(min-resolution: 2dppx)"
+              />
+              <img src="/img/ingridients/vanilla.png" alt="VANILLA" />
+            </picture>
+            <h4 class="ingridients-text">VANILLA</h4>
+          </div>
+          <div class="card__face card__face--back">
+            <h4 class="text__back">VANILLA</h4>
+            <span class="tag__back accent__color">VANILLA</span
+            ><span class="tag__back">the benefits</span>
+            <p class="ingrid__descr">
+              Vanilla is one of the most popular flavorings and seasonings in
+              the world. It is obtained from the fruits of the tropical orchid
+              Vanilla planifolia. Vanilla has a rich history of use as a
+              seasoning, perfume component, and raw material for the production
+              of confectionery.
+            </p>
+          </div>
+        </div>
       </li>
     </ul>
   </div>
